@@ -1,0 +1,65 @@
+body {
+  background: black;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+footer {
+  color: white;
+  text-align: center;
+}
+.titulo {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+.page-wrap {
+  background: url(https://www.runescape.com/l=3/img/rsp777/bg2.jpg) repeat-y
+    center top;
+  margin: 0 auto;
+  overflow-y: hidden;
+  padding: 0 50px;
+  width: 815px;
+}
+.home-main-title {
+  color: #6d4211;
+  font-family: initial;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000000;
+}
+.content {
+  background: url("https://www.runescape.com/img/rsp777/scroll/backdrop_745.gif")
+    repeat-y top center;
+  padding: 50px 75px;
+  position: relative;
+}
+.content::before {
+  background: url("https://www.runescape.com/img/rsp777/scroll/backdrop_765_top.gif")
+    no-repeat center top;
+  content: "";
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: -11px;
+  width: 100%;
+}
+.content::after {
+  background: url("https://www.runescape.com/img/rsp777/scroll/backdrop_765_top.gif")
+    no-repeat center top;
+  content: "";
+  height: 50px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+ol {
+  margin: 35px;
+}
+
+.normal {
+  float: inherit;
+}
