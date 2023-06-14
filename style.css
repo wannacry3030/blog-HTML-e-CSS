@@ -21,7 +21,7 @@ body {
 }
 
 .main-header {
-  background-color: #f7f7f7;
+  background-color: #101010;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
@@ -43,7 +43,7 @@ article {
 }
 
 aside {
-  background-color: #f7f7f7;
+  background-color: #101010;
   border-top: 5px solid #f2e900;
   border-bottom: 5px solid #f2e900;
   padding: 50px 40px;
@@ -200,6 +200,8 @@ button {
   position: absolute;
   right: 50px;
   bottom: 50px;
+  background-color: #ffe70e;
+  border-color: aqua;
 }
 
 h1::first-letter {
